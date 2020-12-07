@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<stdlib.h>
 #define MAX 100
-#define input "test03_4.txt"
+#define input "test01_1.txt"
 
 struct Dothi{
 	int n;
@@ -125,13 +125,13 @@ int timEuler (Dothi a)
 		printf("%3d",test.a[i]);
 	}
 	}
-	
-	return 1;
 	if(kt==0)
 	{
 	printf("\n\nko phai do thi Euler\n");
 	return 0;
 	}
+	return 1;
+	
 }
 int main()
 {
